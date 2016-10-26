@@ -9,10 +9,15 @@
 import UIKit
 
 class ArticleTableViewCell: UITableViewCell {
+    @IBOutlet weak var date: UILabel!
+    @IBOutlet weak var descript: UILabel!
+    @IBOutlet weak var title: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

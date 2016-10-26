@@ -9,5 +9,8 @@
 import UIKit
 
 class Article: NSObject {
-
+    var title = ""
+    var descript = ""
+    var date = ""
+    var link = ""
 }
